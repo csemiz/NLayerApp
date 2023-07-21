@@ -10,7 +10,7 @@ namespace NLayer.Core
     {
         public string Name { get; set; }
 
-        public ICollection<Product> Produtcs { get; set;}//Navigation property
+        public ICollection<Product> Products { get; set;}//Navigation property
     }
 }
 
