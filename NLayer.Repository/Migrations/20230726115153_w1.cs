@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace NLayer.Repository.Migrations
 {
     /// <inheritdoc />
-    public partial class initial : Migration
+    public partial class w1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -89,11 +89,11 @@ namespace NLayer.Repository.Migrations
                 columns: new[] { "Id", "CategoryId", "CreatedDate", "Name", "Price", "Stock", "UpdateDate" },
                 values: new object[,]
                 {
-                    { 1, 1, new DateTime(2023, 7, 24, 18, 25, 29, 291, DateTimeKind.Local).AddTicks(4966), "Kalem 1", 100m, 20, null },
-                    { 2, 1, new DateTime(2023, 7, 24, 18, 25, 29, 291, DateTimeKind.Local).AddTicks(4974), "Kalem 2", 200m, 30, null },
-                    { 3, 1, new DateTime(2023, 7, 24, 18, 25, 29, 291, DateTimeKind.Local).AddTicks(4975), "Kalem 3", 300m, 60, null },
-                    { 4, 2, new DateTime(2023, 7, 24, 18, 25, 29, 291, DateTimeKind.Local).AddTicks(4976), "Kitap 1", 300m, 60, null },
-                    { 5, 1, new DateTime(2023, 7, 24, 18, 25, 29, 291, DateTimeKind.Local).AddTicks(4977), "Kitap 2", 500m, 90, null }
+                    { 1, 1, new DateTime(2023, 7, 26, 14, 51, 53, 447, DateTimeKind.Local).AddTicks(5064), "Kalem 1", 100m, 20, null },
+                    { 2, 1, new DateTime(2023, 7, 26, 14, 51, 53, 447, DateTimeKind.Local).AddTicks(5079), "Kalem 2", 200m, 30, null },
+                    { 3, 1, new DateTime(2023, 7, 26, 14, 51, 53, 447, DateTimeKind.Local).AddTicks(5081), "Kalem 3", 300m, 60, null },
+                    { 4, 2, new DateTime(2023, 7, 26, 14, 51, 53, 447, DateTimeKind.Local).AddTicks(5082), "Kitap 1", 300m, 60, null },
+                    { 5, 1, new DateTime(2023, 7, 26, 14, 51, 53, 447, DateTimeKind.Local).AddTicks(5084), "Kitap 2", 500m, 90, null }
                 });
 
             migrationBuilder.InsertData(
@@ -102,7 +102,7 @@ namespace NLayer.Repository.Migrations
                 values: new object[,]
                 {
                     { 1, "Kırmızı", 100, 1, 200 },
-                    { 2, "Mavi", 300, 1, 500 }
+                    { 2, "Mavi", 300, 2, 500 }
                 });
 
             migrationBuilder.CreateIndex(

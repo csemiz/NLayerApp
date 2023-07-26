@@ -12,8 +12,8 @@ using NLayer.Repository;
 namespace NLayer.Repository.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230724152529_initial")]
-    partial class initial
+    [Migration("20230726115153_w1")]
+    partial class w1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -108,7 +108,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2023, 7, 24, 18, 25, 29, 291, DateTimeKind.Local).AddTicks(4966),
+                            CreatedDate = new DateTime(2023, 7, 26, 14, 51, 53, 447, DateTimeKind.Local).AddTicks(5064),
                             Name = "Kalem 1",
                             Price = 100m,
                             Stock = 20
@@ -117,7 +117,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 2,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2023, 7, 24, 18, 25, 29, 291, DateTimeKind.Local).AddTicks(4974),
+                            CreatedDate = new DateTime(2023, 7, 26, 14, 51, 53, 447, DateTimeKind.Local).AddTicks(5079),
                             Name = "Kalem 2",
                             Price = 200m,
                             Stock = 30
@@ -126,7 +126,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 3,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2023, 7, 24, 18, 25, 29, 291, DateTimeKind.Local).AddTicks(4975),
+                            CreatedDate = new DateTime(2023, 7, 26, 14, 51, 53, 447, DateTimeKind.Local).AddTicks(5081),
                             Name = "Kalem 3",
                             Price = 300m,
                             Stock = 60
@@ -135,7 +135,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 4,
                             CategoryId = 2,
-                            CreatedDate = new DateTime(2023, 7, 24, 18, 25, 29, 291, DateTimeKind.Local).AddTicks(4976),
+                            CreatedDate = new DateTime(2023, 7, 26, 14, 51, 53, 447, DateTimeKind.Local).AddTicks(5082),
                             Name = "Kitap 1",
                             Price = 300m,
                             Stock = 60
@@ -144,7 +144,7 @@ namespace NLayer.Repository.Migrations
                         {
                             Id = 5,
                             CategoryId = 1,
-                            CreatedDate = new DateTime(2023, 7, 24, 18, 25, 29, 291, DateTimeKind.Local).AddTicks(4977),
+                            CreatedDate = new DateTime(2023, 7, 26, 14, 51, 53, 447, DateTimeKind.Local).AddTicks(5084),
                             Name = "Kitap 2",
                             Price = 500m,
                             Stock = 90
@@ -192,7 +192,7 @@ namespace NLayer.Repository.Migrations
                             Id = 2,
                             Color = "Mavi",
                             Height = 300,
-                            ProductId = 1,
+                            ProductId = 2,
                             Width = 500
                         });
                 });
