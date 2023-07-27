@@ -12,9 +12,10 @@ namespace NLayer.Service.Services
 
         private readonly IUnitOfWork _unitOfWork;
 
-        public Service(IGenericRepository<T> repository)
+        public Service(IGenericRepository<T> repository, IUnitOfWork unitOfWork)
         {
             _repository = repository;
+            _unitOfWork = unitOfWork;
         }
 
         public async Task<T> AddAsync(T entity)

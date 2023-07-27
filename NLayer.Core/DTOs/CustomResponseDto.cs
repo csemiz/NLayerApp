@@ -2,6 +2,8 @@
 
 namespace NLayer.Core.DTOs
 {
+
+
     public class CustomResponseDto<T>
     {
         public class a<T>
