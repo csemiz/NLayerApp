@@ -5,15 +5,18 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Core", "NLayer.Core\NLayer.Core.csproj", "{F151B25E-27DB-4689-BF77-B36F4993E08D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Repository", "NLayer.Repository\NLayer.Repository.csproj", "{8E25E285-F041-4904-9CEC-61261D1B5A44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Repository", "NLayer.Repository\NLayer.Repository.csproj", "{8E25E285-F041-4904-9CEC-61261D1B5A44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Service", "NLayer.Service\NLayer.Service.csproj", "{23AA3FD5-2BFC-4A4D-8209-870FBC8A4D09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Service", "NLayer.Service\NLayer.Service.csproj", "{23AA3FD5-2BFC-4A4D-8209-870FBC8A4D09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.API", "NLayer.API\NLayer.API.csproj", "{81B9B0D9-BAFA-4DCE-927F-452F4E7B8DED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.API", "NLayer.API\NLayer.API.csproj", "{81B9B0D9-BAFA-4DCE-927F-452F4E7B8DED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Web", "NLayer.Web\NLayer.Web.csproj", "{09FF9483-A96A-4C9F-BB1F-44E7E0BF9F81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Web", "NLayer.Web\NLayer.Web.csproj", "{09FF9483-A96A-4C9F-BB1F-44E7E0BF9F81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLayer.Caching", "NLayer.Caching\NLayer.Caching.csproj", "{5DC00D83-2E1B-44D1-A1D2-8FF28EBEBE59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Caching", "NLayer.Caching\NLayer.Caching.csproj", "{5DC00D83-2E1B-44D1-A1D2-8FF28EBEBE59}"
+	ProjectSection(ProjectDependencies) = postProject
+		{23AA3FD5-2BFC-4A4D-8209-870FBC8A4D09} = {23AA3FD5-2BFC-4A4D-8209-870FBC8A4D09}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
